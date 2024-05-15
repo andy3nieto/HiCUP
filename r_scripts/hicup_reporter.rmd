@@ -14,6 +14,7 @@ knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 
 library (tidyverse)
 library(plotly)
+options(bitmapType='cairo')
 
 summary_file <- params$summary_file
 ditag_lengths_file <- params$ditag_lengths_file
